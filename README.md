@@ -14,8 +14,9 @@ Project Created on: 12<sup>th</sup>-Oct-2021
 - Chicago
 - New York City
 - Washington
+
 From the dataset gathered from the above cities, questions were answered using the ***Bikeshare app***.
-Here are some of the questions answered.
+#### Here are some of the questions answered. ####
 1. What were the _Most Frequent Times of Travel_?
  - Most common month
  - Most common day
@@ -49,11 +50,11 @@ Here are some of the questions answered.
 ### Credits
 <!-- It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted. -->
 ##### Special credit goes to the following;-
-[geeksforgeeks.or](https://www.geeksforgeeks.org/python-pandas-series-dt-time/)
-[ kite.com](https://www.kite.com/python/answers/how-to-find-the-max-value-of-a-pandas-dataframe-column-in-python)
-[ **stackoverflow.com** ](https://stackoverflow.com/questions/30222533/create-a-day-of-week-column-in-a-pandas-dataframe-using-python)
-[palletsprojects.com ](https://click.palletsprojects.com/en/7.x/quickstart/)
-[matplotlib.org ](https://matplotlib.org/stable/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py)
-[shanelynn.ie ](https://www.shanelynn.ie/pandas-iloc-loc-select-rows-and-columns-dataframe/)
-[ pydata.org ](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_json.html)
-[ Udacity's Programming for Data Science with Python Nanodegree Program](www.udacity.com)
+- [geeksforgeeks.or](https://www.geeksforgeeks.org/python-pandas-series-dt-time/)
+- [ kite.com](https://www.kite.com/python/answers/how-to-find-the-max-value-of-a-pandas-dataframe-column-in-python)
+- [ **stackoverflow.com** ](https://stackoverflow.com/questions/30222533/create-a-day-of-week-column-in-a-pandas-dataframe-using-python)
+- [palletsprojects.com ](https://click.palletsprojects.com/en/7.x/quickstart/)
+- [matplotlib.org ](https://matplotlib.org/stable/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py)
+- [shanelynn.ie ](https://www.shanelynn.ie/pandas-iloc-loc-select-rows-and-columns-dataframe/)
+- [ pydata.org ](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_json.html)
+- [ Udacity's Programming for Data Science with Python Nanodegree Program](www.udacity.com)
