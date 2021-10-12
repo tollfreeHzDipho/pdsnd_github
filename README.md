@@ -36,7 +36,7 @@ From the dataset gathered from the above cities, questions were answered using t
 ##### Gender involved;- #####
 * Male
 * Female
-**NB:** 
+#### **NB:** 
 > - Other statistics were done on basing on the age of the users
 > - viusalization were made using [matplot libreary](https://matplotlib.org/) 
 
