@@ -1,1 +1,11 @@
-.github/**
+#---------------------------------
+# This is list of git ignore RULES 
+#---------------------------------
+
+#List of files in the gitignore
+#-new_york_city.csv
+#-chicago.csv  
+#-washington.csv
+
+#restrict all the files with an extension of .csv
+*.csv
