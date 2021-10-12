@@ -52,7 +52,7 @@ def get_filters():
                     month='all'
                 break            
         while True:
-            # get user input for day of week (all, monday, tuesday, ... sunday)
+            # get user input for day of week (all, monday, tuesday,wednesday,thursday,friday,saturday,sunday)
             day=input('Enter a day. eg. \"monday, tuesday, ... sunday\"\n>')
             #validating the day for non letters 
             if day.isalpha():
