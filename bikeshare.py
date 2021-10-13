@@ -39,7 +39,7 @@ def get_filters():
        if city in CITY_DATA:
            break
 
-    if cl.confirm("WANT SOME CUSTOM FILTERS FOR "+city.upper()+"?"):
+    if cl.confirm("WANT SOME CUSTOM FILTERS FOR {} ?".format(city.upper())):
         while True:
             # get user input for month (all, january, february, ... , june)
             month=input('Alright then, enter a month to explore. eg. \"january,february,march, april,may,june\"\n>')
@@ -137,11 +137,11 @@ def station_stats(df):
 
     # display most commonly used start station
     most_common_start_station = df['Start Station'].value_counts().idxmax()
-    print("The most commonly used start station is :", most_common_start_station)
+    print("The most commonly used start station is : {}".format(most_common_start_station))
 
     # display most commonly used end station
     most_common_end_station = df['End Station'].value_counts().idxmax()
-    print("The most commonly used End station is :", most_common_end_station)
+    print("The most commonly used End station is : {}".format(most_common_end_station))
 
     # display most frequent combination of start station and end station trip
     most_freq_start_end_station =df[['Start Station','End Station']].mode().loc[0]
@@ -159,11 +159,11 @@ def trip_duration_stats(df):
     start_time = time.time()
     # display total travel time
     total_travel_time = df['Trip Duration'].sum()
-    print("Total travel time is:", total_travel_time)
+    print("Total travel time is: {}".format(total_travel_time))
     
     # display mean travel time
     mean_travel_time = df['Trip Duration'].mean()
-    print("Mean travel time is:", mean_travel_time)
+    print("Mean travel time is: {}".format(mean_travel_time))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
