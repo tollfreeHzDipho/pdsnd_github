@@ -1,7 +1,6 @@
 #code written by Turyamuhaki Diphas (tdiphas@gmail.com)
 import time
 import pandas as pd
-import numpy as np
 import click as cl
 import json
 #Check whether the matplotlib module is installed
